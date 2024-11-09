@@ -1,0 +1,154 @@
+/* Main container styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.youth-power-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    animation: fadeIn 1s ease-in;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Logo section styling */
+.logo-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 22px 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.logo-section:hover {
+    background-color: #f0f4ff;
+}
+
+.logo-image, .logo-text {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+/* Navigation styling */
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+    font-family: Arial, sans-serif; /* Apply Arial font to navigation */
+}
+
+.navigation:hover {
+    background-color: #e0eaff;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-family: Arial, sans-serif; /* Arial font for navigation items */
+}
+
+.nav-item:hover {
+    color: #4900a8;
+    transform: scale(1.1);
+}
+
+/* Hero section styling */
+.hero-section {
+    position: relative;
+    padding: 40px;
+    border-radius: 8px;
+    background-image: url('https://cdn.builder.io/api/v1/image/assets/8852bfc61894496daeca3c0626ffd0a8/049f86c33adc4f61e9dfb77baf8f5eac4fd1455ba78f8f7c701d7d1683deec0b?apiKey=8852bfc61894496daeca3c0626ffd0a8&');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.hero-title {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 900;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+
+/* Mission statement styling */
+.mission-statement {
+    color: #333;
+    margin-top: 20px;
+    font-size: 16px;
+    padding: 20px;
+    background-color: #e8f7ff;
+    border-radius: 8px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.mission-statement:hover {
+    background-color: #d0ecff;
+}
+
+/* Banner image styling */
+.banner-image {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 8px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.banner-image:hover {
+    transform: scale(1.05);
+}
+
+/* Objectives section styling */
+.objectives-section {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    font-size: 14px;
+}
+
+.objectives-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.objective-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.objective-item:hover {
+    background-color: #f0f4ff;
+    transform: scale(1.02);
+}
+
+.objective-bullet {
+    background-color: #4900a8;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+}
